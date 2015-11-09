@@ -1,0 +1,25 @@
+{
+    "name": "diegoduran/php-laravel",
+    "description": "Curso platzi laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Duran",
+            "email": "diego.duran06@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^5.1",
+        "illuminate/view": "^5.1",
+        "illuminate/routing": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PlatziPHP\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
